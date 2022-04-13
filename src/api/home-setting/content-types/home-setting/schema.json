@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_settings",
+  "info": {
+    "singularName": "home-setting",
+    "pluralName": "home-settings",
+    "displayName": "home-setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand_name_chi": {
+      "type": "string"
+    },
+    "brand_name_eng": {
+      "type": "string"
+    },
+    "branch_name_short": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "integer"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
