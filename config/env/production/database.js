@@ -1,7 +1,11 @@
+const path = require('path');
+
 module.exports = ({ env }) => ({
-    url: env("https://level-up-engineering-uat.herokuapp.com/"),
-    proxy: true,
-    app: {
-        keys: env.array("APP_KEYS", ["HOST", "PORT", "APP_KEYS", "JWT_SECRET", "API_TOKEN_SALT"]),
+  connection: {
+    client: 'sqlite',
+    connection: {
+      filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.tmp/data.db')),
     },
+    useNullAsDefault: true,
+  },
 });
