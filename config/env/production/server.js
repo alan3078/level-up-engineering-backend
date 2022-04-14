@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
-    url: env("https://level-up-engineering-uat.herokuapp.com/"),
     proxy: true,
+    url: env('MY_HEROKU_URL'),
     app: {
-        keys: env.array("APP_KEYS", ["HOST", "PORT", "APP_KEYS", "JWT_SECRET", "API_TOKEN_SALT"]),
+        keys: env.array('APP_KEYS')
     },
-});
+})
