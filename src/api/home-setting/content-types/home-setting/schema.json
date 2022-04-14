@@ -18,21 +18,22 @@
     "brand_name_eng": {
       "type": "string"
     },
-    "branch_name_short": {
+    "brand_name_short": {
       "type": "string"
     },
     "experience": {
       "type": "integer"
     },
     "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
