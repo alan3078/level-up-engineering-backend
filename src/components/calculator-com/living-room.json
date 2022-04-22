@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_calculator_com_living_rooms",
+  "info": {
+    "displayName": "living-room",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "living_room": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::living-room.living-room"
+    }
+  }
+}

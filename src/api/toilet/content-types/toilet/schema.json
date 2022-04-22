@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "toilets",
+  "info": {
+    "singularName": "toilet",
+    "pluralName": "toilets",
+    "displayName": "toilet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    },
+    "relation": {
+      "type": "integer"
+    },
+    "unit": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "min_charge": {
+      "type": "decimal"
+    }
+  }
+}

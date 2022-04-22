@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_calculator_com_toilets",
+  "info": {
+    "displayName": "toilet",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "toilets": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::toilet.toilet"
+    }
+  }
+}

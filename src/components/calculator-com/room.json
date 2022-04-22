@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_calculator_com_rooms",
+  "info": {
+    "displayName": "room",
+    "icon": "bed"
+  },
+  "options": {},
+  "attributes": {
+    "room": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::room.room"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calculators",
+  "info": {
+    "singularName": "calculator",
+    "pluralName": "calculators",
+    "displayName": "calculator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "calculator_content": {
+      "type": "dynamiczone",
+      "components": [
+        "calculator-com.toilet",
+        "calculator-com.kitchen",
+        "calculator-com.living-room",
+        "calculator-com.room"
+      ],
+      "required": true
+    }
+  }
+}

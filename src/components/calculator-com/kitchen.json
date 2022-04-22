@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_calculator_com_kitchens",
+  "info": {
+    "displayName": "kitchen",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "kitchens": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::kitchen.kitchen"
+    }
+  }
+}

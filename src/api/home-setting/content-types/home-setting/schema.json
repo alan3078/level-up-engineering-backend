@@ -34,6 +34,31 @@
         "videos",
         "audios"
       ]
+    },
+    "phone_number": {
+      "type": "string",
+      "maxLength": 11,
+      "minLength": 11
+    },
+    "company_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "facebook_link": {
+      "type": "string"
+    },
+    "youtube_link": {
+      "type": "string"
+    },
+    "email_link": {
+      "type": "email"
     }
   }
 }
